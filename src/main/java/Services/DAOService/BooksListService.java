@@ -16,7 +16,11 @@ public class BooksListService {
     return daoBook.getAll();
   }
 
-  public BooksListMock.Book findOne(int isbn) {
-    return daoBook.getOne(isbn);
+  public BooksListMock.Book findOneByIsbn(int isbn) {
+    return daoBook.getOneByIsbn(isbn);
+  }
+
+  public void addOne(BooksListMock.Book book) {
+    daoBook.addOne(book);
   }
 }
