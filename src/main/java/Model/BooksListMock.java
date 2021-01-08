@@ -19,7 +19,7 @@ public class BooksListMock {
     return booksList;
   }
 
-  private static class Book {
+  public static class Book {
     private int isbn;
     private String title;
 
