@@ -4,8 +4,8 @@ import Model.BooksListMock;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
-import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @RequestScoped
 public class DAOBook {
@@ -17,11 +17,10 @@ public class DAOBook {
   }
 
   public BooksListMock.Book getOneByIsbn(int isbn) {
-    BooksListMock.Book result = null;
-    for(BooksListMock.Book book: getAll()) {
-      if (book.getIsbn() == isbn) result = book;
-    }
-    return result;
+    List<BooksListMock.Book> bookListColl = getAll().stream()
+      .filter((BooksListMock.Book book) -> book.getIsbn() == isbn)
+      .collect(Collectors.toList());
+    return bookListColl.size() == 1 ? bookListColl.get(0) : null;
   }
 
   public void addOne(BooksListMock.Book book) {

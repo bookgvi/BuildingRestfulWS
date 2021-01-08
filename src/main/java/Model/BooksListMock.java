@@ -1,13 +1,12 @@
 package Model;
 
-import javax.enterprise.context.RequestScoped;
 import javax.inject.Singleton;
 import java.util.ArrayList;
 import java.util.List;
 
 @Singleton
 public class BooksListMock {
-  private List<Book> booksList = new ArrayList<Book>();
+  private List<Book> booksList = new ArrayList<>();
 
   private BooksListMock() {
     Book book = new Book(1, "QQQ1");
@@ -20,8 +19,8 @@ public class BooksListMock {
     return booksList;
   }
 
-  public Book getOneByIsbn(int isbn) {
-    return booksList.get(isbn);
+  public Book getOneById(int id) {
+    return booksList.get(id);
   }
 
   public void addOne(Book book) {
