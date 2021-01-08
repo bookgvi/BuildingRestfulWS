@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="ROOT">
-    <output-path>$PROJECT_DIR$/out/artifacts/ROOT</output-path>
+    <output-path>$PROJECT_DIR$/docker/artifact</output-path>
     <root id="archive" name="ROOT.war">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
