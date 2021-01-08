@@ -19,6 +19,10 @@ public class BooksListMock {
     return booksList;
   }
 
+  public Book getOne(int isbn) {
+    return booksList.get(isbn - 1);
+  }
+
   public static class Book {
     private int isbn;
     private String title;

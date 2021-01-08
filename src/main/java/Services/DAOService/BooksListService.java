@@ -15,4 +15,8 @@ public class BooksListService {
   public List<BooksListMock.Book> findAll() {
     return daoBook.getAll();
   }
+
+  public BooksListMock.Book findOne(int isbn) {
+    return daoBook.getOne(isbn);
+  }
 }
