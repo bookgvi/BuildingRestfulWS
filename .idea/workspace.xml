@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44157687-f6df-4a7c-b1cd-f5f6aa9b5c61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ROOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ROOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ROOT/WEB-INF/classes/WebResources/AppAccessPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ROOT/WEB-INF/classes/WebResources/ResourceHello.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -246,7 +243,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610046288422</updated>
       <workItem from="1610046289684" duration="1217000" />
-      <workItem from="1610052890775" duration="4447000" />
+      <workItem from="1610052890775" duration="4984000" />
+      <workItem from="1610097843992" duration="864000" />
     </task>
     <servers />
   </component>
