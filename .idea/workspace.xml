@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44157687-f6df-4a7c-b1cd-f5f6aa9b5c61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/BooksListMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/BooksListMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Arquillian JUnit Test Class" />
       </list>
     </option>
   </component>
@@ -44,17 +47,30 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker/artifact" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34375" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="WebResources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docker/artifact" />
       <recent name="$PROJECT_DIR$/docker" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docker/artifact" />
@@ -73,7 +89,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Arquillian JUnit.Manual container configuration: ResourceHelloTest.hello">
+    <configuration name="Manual container configuration: ResourceHelloTest.hello" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <module name="BuildingRestful" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebResources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="Manual container configuration" />
+        </value>
+      </option>
+      <option name="PACKAGE_NAME" value="WebResources" />
+      <option name="MAIN_CLASS_NAME" value="WebResources.ResourceHelloTest" />
+      <option name="METHOD_NAME" value="hello" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GlassFish 5.0.1" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.1" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
@@ -212,6 +250,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ResourceHelloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BuildingRestful" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebResources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebResources" />
+      <option name="MAIN_CLASS_NAME" value="WebResources.ResourceHelloTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourceHelloTest.TestResponseForGreetings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BuildingRestful" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebResources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebResources" />
+      <option name="MAIN_CLASS_NAME" value="WebResources.ResourceHelloTest" />
+      <option name="METHOD_NAME" value="TestResponseForGreetings" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Arquillian JUnit.Manual container configuration: ResourceHelloTest.hello" />
+      <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
+      <item itemvalue="JUnit.ResourceHelloTest.TestResponseForGreetings" />
+      <item itemvalue="JUnit.ResourceHelloTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Arquillian JUnit.Manual container configuration: ResourceHelloTest.hello" />
+        <item itemvalue="JUnit.ResourceHelloTest" />
+        <item itemvalue="JUnit.ResourceHelloTest.TestResponseForGreetings" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -235,7 +318,8 @@
       <updated>1610046288422</updated>
       <workItem from="1610046289684" duration="1217000" />
       <workItem from="1610052890775" duration="4984000" />
-      <workItem from="1610097843992" duration="12466000" />
+      <workItem from="1610097843992" duration="19687000" />
+      <workItem from="1610183442145" duration="830000" />
     </task>
     <servers />
   </component>
