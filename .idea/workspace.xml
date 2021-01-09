@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="44157687-f6df-4a7c-b1cd-f5f6aa9b5c61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,14 +64,17 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="WebResources" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docker/artifact" />
       <recent name="$PROJECT_DIR$/docker" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="POJO" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docker/artifact" />
       <recent name="$PROJECT_DIR$/docker" />
     </key>
@@ -89,12 +91,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Arquillian JUnit.Manual container configuration: ResourceHelloTest.hello">
-    <configuration name="Manual container configuration: ResourceHelloTest.hello" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Arquillian JUnit.Manual container configuration: JsonBTest.compareJsonB_with_AnnotatedPOJO">
+    <configuration name="Manual container configuration: JsonBTest.compareJsonB_with_AnnotatedPOJO" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
       <module name="BuildingRestful" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="WebResources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="Manual container configuration" />
+        </value>
+      </option>
+      <option name="PACKAGE_NAME" value="WebResources" />
+      <option name="MAIN_CLASS_NAME" value="WebResources.JsonBTest" />
+      <option name="METHOD_NAME" value="compareJsonB_with_AnnotatedPOJO" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Manual container configuration: ResourceHelloTest.hello" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <module name="BuildingRestful" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POJO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,7 +278,7 @@
       <module name="BuildingRestful" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WebResources.*" />
+          <option name="PATTERN" value="POJO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,7 +293,7 @@
       <module name="BuildingRestful" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WebResources.*" />
+          <option name="PATTERN" value="POJO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,9 +311,11 @@
       <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
       <item itemvalue="JUnit.ResourceHelloTest.TestResponseForGreetings" />
       <item itemvalue="JUnit.ResourceHelloTest" />
+      <item itemvalue="Arquillian JUnit.Manual container configuration: JsonBTest.compareJsonB_with_AnnotatedPOJO" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Arquillian JUnit.Manual container configuration: JsonBTest.compareJsonB_with_AnnotatedPOJO" />
         <item itemvalue="Arquillian JUnit.Manual container configuration: ResourceHelloTest.hello" />
         <item itemvalue="JUnit.ResourceHelloTest" />
         <item itemvalue="JUnit.ResourceHelloTest.TestResponseForGreetings" />
