@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44157687-f6df-4a7c-b1cd-f5f6aa9b5c61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebResources/JsonBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebResources/JsonBTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,8 +92,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Arquillian JUnit.Manual container configuration: JsonBTest.compareJsonB_with_AnnotatedPOJO">
-    <configuration name="Manual container configuration: JsonBTest.compareJsonB_with_AnnotatedPOJO" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Arquillian JUnit.Manual container configuration: JsonB_JsonP_Test.jsonP_features">
+    <configuration name="Manual container configuration: JsonB_JsonP_Test.compareJsonB_with_AnnotatedPOJO" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
       <module name="BuildingRestful" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +107,30 @@
         </value>
       </option>
       <option name="PACKAGE_NAME" value="WebResources" />
-      <option name="MAIN_CLASS_NAME" value="WebResources.JsonBTest" />
+      <option name="MAIN_CLASS_NAME" value="WebResources.JsonB_JsonP_Test" />
       <option name="METHOD_NAME" value="compareJsonB_with_AnnotatedPOJO" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Manual container configuration: JsonB_JsonP_Test.jsonP_features" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <module name="BuildingRestful" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebResources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="Manual container configuration" />
+        </value>
+      </option>
+      <option name="PACKAGE_NAME" value="WebResources" />
+      <option name="MAIN_CLASS_NAME" value="WebResources.JsonB_JsonP_Test" />
+      <option name="METHOD_NAME" value="jsonP_features" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
@@ -311,11 +334,13 @@
       <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
       <item itemvalue="JUnit.ResourceHelloTest.TestResponseForGreetings" />
       <item itemvalue="JUnit.ResourceHelloTest" />
-      <item itemvalue="Arquillian JUnit.Manual container configuration: JsonBTest.compareJsonB_with_AnnotatedPOJO" />
+      <item itemvalue="Arquillian JUnit.Manual container configuration: JsonB_JsonP_Test.compareJsonB_with_AnnotatedPOJO" />
+      <item itemvalue="Arquillian JUnit.Manual container configuration: JsonB_JsonP_Test.jsonP_features" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Arquillian JUnit.Manual container configuration: JsonBTest.compareJsonB_with_AnnotatedPOJO" />
+        <item itemvalue="Arquillian JUnit.Manual container configuration: JsonB_JsonP_Test.jsonP_features" />
+        <item itemvalue="Arquillian JUnit.Manual container configuration: JsonB_JsonP_Test.compareJsonB_with_AnnotatedPOJO" />
         <item itemvalue="Arquillian JUnit.Manual container configuration: ResourceHelloTest.hello" />
         <item itemvalue="JUnit.ResourceHelloTest" />
         <item itemvalue="JUnit.ResourceHelloTest.TestResponseForGreetings" />

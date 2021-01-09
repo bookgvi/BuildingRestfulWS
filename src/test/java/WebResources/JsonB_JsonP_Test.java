@@ -12,16 +12,18 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import javax.json.*;
 import javax.json.bind.Jsonb;
 import javax.json.bind.JsonbBuilder;
 import javax.json.bind.JsonbConfig;
 import javax.json.bind.config.BinaryDataStrategy;
 import javax.json.bind.config.PropertyNamingStrategy;
 import javax.json.bind.config.PropertyOrderStrategy;
+import java.io.StringReader;
 import java.util.Locale;
 
 @RunWith(Arquillian.class)
-public class JsonBTest {
+public class JsonB_JsonP_Test {
   @Deployment
   public static JavaArchive createDeployment() {
     return ShrinkWrap.create(JavaArchive.class)
@@ -54,5 +56,36 @@ public class JsonBTest {
 
     Assert.assertEquals(plainPojoJson, plainPojoJson, annotatedPojoJson);
     Assert.assertEquals(annotatedPojoJson, annotatedPojoJson, plainPojoJson);
+  }
+
+  @Test
+  public void jsonP_features() {
+    JsonObject source = Json.createObjectBuilder()
+      .add("aString", "QQQ")
+      .add("aNumber", 1)
+      .build();
+    JsonObject target = Json.createObjectBuilder()
+      .add("aString", "QQQ")
+      .add("aNumber", 1)
+      .add("anArray", "[1, 2, 3]")
+      .build();
+
+    JsonReader jsonReader = Json.createReader(new StringReader("{\"aString\": \"Hello Json-P\",\"arrayOfInt\":[1,2,3]}"));
+    JsonObject jsonObject1 = jsonReader.readObject();
+    JsonArray jsonArray1 = jsonObject1.getJsonArray("arrayOfInt");
+
+    JsonPointer jsonPointer = Json.createPointer("/arrayOfInt/1");
+    JsonValue num = jsonPointer.getValue(jsonObject1);
+    Assert.assertEquals(num, jsonArray1.get(1));
+
+    JsonPatch patch = Json.createPatchBuilder()
+      .remove("/arrayOfInt/1").build();
+    jsonObject1 = patch.apply(jsonObject1);
+    Assert.assertEquals(2, jsonObject1.getJsonArray("arrayOfInt").size());
+
+    JsonPatch diff = Json.createDiff(source, target);
+    Assert.assertNotEquals(source, target);
+    source = diff.apply(source);
+    Assert.assertEquals(source, target);
   }
 }
