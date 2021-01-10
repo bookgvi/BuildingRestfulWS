@@ -18,7 +18,7 @@ public class DAOBook {
 
   public BooksListMock.Book getOneByIsbn(String isbn) {
     List<BooksListMock.Book> bookListColl = getAll().stream()
-      .filter((BooksListMock.Book book) -> book.getIsbn().equals(isbn))
+      .filter((BooksListMock.Book book) -> book.getIsbn() == isbn.intern() && book.getIsbn().equals(isbn))
       .collect(Collectors.toList());
     return bookListColl.size() == 1 ? bookListColl.get(0) : null;
   }

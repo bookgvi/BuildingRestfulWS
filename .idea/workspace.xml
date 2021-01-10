@@ -10,8 +10,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DAO/DAOBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/DAOBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/BooksListMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/BooksListMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Services/DAOService/BooksListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Services/DAOService/BooksListService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebResources/ResourceBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebResources/ResourceBook.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

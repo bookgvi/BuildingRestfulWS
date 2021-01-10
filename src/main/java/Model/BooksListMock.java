@@ -37,12 +37,12 @@ public class BooksListMock {
     public Book() {}
 
     public Book(String isbn, String title) {
-      this.isbn = isbn;
-      this.title = title;
+      this.isbn = isbn.intern();
+      this.title = title.intern();
     }
 
     public void setIsbn(String isbn) {
-      this.isbn = isbn;
+      this.isbn = isbn.intern();
     }
 
     @NotNull
@@ -52,7 +52,7 @@ public class BooksListMock {
     }
 
     public void setTitle(String title) {
-      this.title = title;
+      this.title = title.intern();
     }
 
     @NotNull
