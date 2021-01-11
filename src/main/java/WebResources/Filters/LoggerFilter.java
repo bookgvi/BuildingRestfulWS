@@ -10,7 +10,7 @@ import java.util.UUID;
 import java.util.logging.Logger;
 
 @Provider
-@PreMatching
+@BooksBinding
 public class LoggerFilter implements ContainerRequestFilter, ContainerResponseFilter {
 
   @Context

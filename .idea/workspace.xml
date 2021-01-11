@@ -7,7 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44157687-f6df-4a7c-b1cd-f5f6aa9b5c61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WebResources/Filters/LoggerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebResources/Filters/LoggerFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebResources/ResourceBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebResources/ResourceBook.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +23,7 @@
         <option value="JUnit4 Test Class" />
         <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -371,7 +374,7 @@
       <workItem from="1610097843992" duration="19687000" />
       <workItem from="1610183442145" duration="830000" />
       <workItem from="1610273783568" duration="3157000" />
-      <workItem from="1610365059642" duration="3267000" />
+      <workItem from="1610365059642" duration="4642000" />
     </task>
     <servers />
   </component>

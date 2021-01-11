@@ -2,6 +2,7 @@ package WebResources;
 
 import Model.BooksListMock;
 import Services.DAOService.BooksListService;
+import WebResources.Filters.BooksBinding;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
@@ -9,15 +10,12 @@ import javax.json.Json;
 import javax.json.JsonObject;
 import javax.json.JsonReader;
 import javax.validation.Valid;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.io.InputStream;
 import java.util.Optional;
-import java.util.logging.Logger;
 
 @Path("/book")
 @RequestScoped
@@ -26,6 +24,7 @@ public class ResourceBook {
   BooksListService booksListService;
 
   @GET
+  @BooksBinding
   @Produces(MediaType.APPLICATION_JSON)
   public Response findAll() {
     return Response.ok().entity(booksListService.findAll()).build();
